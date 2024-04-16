@@ -1,0 +1,12 @@
+{
+  "connectionString": {
+    "NguoiDungCnn": "server=NGAPHAM23;database=TruyenTranh;Integrated Security=false;"
+  },
+  "logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

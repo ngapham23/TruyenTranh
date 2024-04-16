@@ -1,0 +1,249 @@
+﻿.header {
+    background-image: url(Anh/cxv.jpg);
+}
+.body {
+    font-family: Tahoma, sans-serif, Helvetica, Arial;
+}
+.page-title {
+    color: bla --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.items .row {
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.items .item .image img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+img.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img, canvas {
+    max-width: 100%;
+}
+
+.btn, .caret, .checkbox-inline, .radio-inline, img {
+    vertical-align: middle;
+}
+
+hr, img {
+    border: 0;
+}
+
+.sochap {
+    position: relative;
+    bottom: -25px;
+    left: -165px;
+}
+
+.chap0 {
+    position: relative;
+    left: 1px;
+    bottom: -3px;
+}
+
+.chap1 {
+    position: relative;
+    bottom: 2px;
+}
+
+.chap2 {
+    position: relative;
+    bottom: 6px;
+}
+
+.time {
+    position: relative;
+    left: 15%;
+    opacity: 0.6; /* Điều chỉnh giá trị tùy theo độ mờ mong muốn */
+}
+
+.icon {
+    position: absolute;
+    top: -100px;
+    left: 150px;
+    z-index: 1; /* Đặt z-index để icon hiển thị phía trước ảnh */
+}
+
+.comic-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 57px;
+    text-decoration: none;
+}
+
+.comic-image1 {
+    max-width: 62%; /* Giới hạn chiều rộng tối đa của ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình khi thay đổi kích thước */
+}
+
+.comic-image2 {
+    max-width: 62%; /* Giới hạn chiều rộng tối đa của ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình khi thay đổi kích thước */
+}
+
+.comic-image3 {
+    max-width: 55%; /* Giới hạn chiều rộng tối đa của ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình khi thay đổi kích thước */
+}
+
+.comic-image4 {
+    max-width: 55%; /* Giới hạn chiều rộng tối đa của ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình khi thay đổi kích thước */
+}
+
+.comic-image5 {
+    max-width: 57%; /* Giới hạn chiều rộng tối đa của ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình khi thay đổi kích thước */
+}
+
+.comic-image6 {
+    max-width: 60%; /* Giới hạn chiều rộng tối đa của ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình khi thay đổi kích thước */
+}
+
+.comic-image7 {
+    max-width: 63%; /* Giới hạn chiều rộng tối đa của ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình khi thay đổi kích thước */
+}
+
+.comic-item a {
+    text-decoration: none
+}
+
+.comic-item {
+    width: 20%; /* Hiển thị 4 truyện trên mỗi dòng */
+    box-sizing: border-box;
+    margin-bottom: 5s0px;
+    display: inline-block;
+}
+
+.tieude {
+    width: 20%; /* Hiển thị 4 truyện trên mỗi dòng */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.comic-link {
+    position: relative;
+}
+
+    .comic-link h3 {
+        margin: 0; /* Loại bỏ margin mặc định của h3 */
+    }
+
+.comic-item h3, .comic-item p {
+    color: black;
+}
+
+.comic-info {
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Tạo nền mờ trắng cho thông tin */
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(24, 21, 21);
+}
+
+    .comic-info i {
+        margin: 0 5px;
+    }
+
+.comic-image {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+.tieude1 {
+    position: relative;
+    right: -17%;
+}
+
+
+.button2 {
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    right: -45%;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+    .pagination li {
+        margin-right: 5px;
+    }
+
+    .pagination a {
+        text-decoration: none;
+        padding: 5px 10px;
+        border: 1px solid #690909;
+        border-radius: 5px;
+        color: #ffffff;
+        cursor: pointer;
+        transition: color 0.5s; /* Thêm hiệu ứng chuyển màu trong 0.3 giây */
+    }
+
+        .pagination a:hover {
+            color: #cf1717; /* Màu chữ khi di chuột vào */
+            background-color: #e9dede;
+        }
+
+        .pagination a.active {
+            background-color: #c21515;
+            color: #af1010;
+        }
+
+
+
+footer {
+    background-color: rgb(144, 137, 137);
+    clear: both;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.page-title {
+    position: relative;
+    left: 50px;
+}
+
+
+.backgroudmid {
+    position: relative;
+    left: -13%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Truyendecu {
+    position: absolute;
+}
