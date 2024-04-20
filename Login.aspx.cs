@@ -6,6 +6,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Configuration;
+using Microsoft.Ajax.Utilities;
+using static System.Windows.Forms.LinkLabel;
 
 namespace TruyenTranh
 {
@@ -41,6 +43,7 @@ namespace TruyenTranh
                     if (count > 0)
                     {
                         // Đăng nhập thành công, chuyển hướng đến trang chủ
+                       
                         Response.Redirect("TrangChu.aspx");
                     }
                     else

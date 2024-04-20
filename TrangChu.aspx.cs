@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Microsoft.Ajax.Utilities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using static System.Windows.Forms.LinkLabel;
 
 namespace TruyenTranh
 {
@@ -13,5 +15,10 @@ namespace TruyenTranh
         {
 
         }
+        private void Loginclick(object sender, EventArgs e) {
+            loginbt.Visible = false;
+    }
+
+
     }
 }

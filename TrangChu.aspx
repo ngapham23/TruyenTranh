@@ -309,7 +309,10 @@
   
 </head>
 <body>
-    <header class="header" id="header">
+    
+  
+    <form id="form1" runat="server">
+            <header class="header" id="header">
     <div class="navbar">
         <div class="container">
             <div class="navbar-header">
@@ -325,57 +328,15 @@
                     <button type="button" class="navbar-toggle" aria-label="Menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                                       <ul class="nav-account list-inline hidden-xs pull-right" id="loginRegisterButtons">
-    <li onclick="login()" class="login-link"> <a rel="nofollow" href="Login.aspx">Đăng nhập</a></li>
-    <li onclick="register()" class="register-link"><a rel="nofollow" href="register.aspx">Đăng ký</a></li>
-</ul>
-               <div id="avatarSection " style="display: none;">
-    <a href="user.html" id="avatarLink">
-        <img src="Anh1.jpg" alt="Avatar" width="40" height="40">
-    </a>
-    <button onclick="logout()">Đăng Xuất</button>
-</div>
+                                        <ul class="nav-account list-inline hidden-xs pull-right">
+                                            <li Onclick="'Loginclick" id="loginbt" class="login-link"><a rel="nofollow" href="Login.aspx">Đăng nhập</a></li>
+                                            <li Onclick="'Registerclick" id="regbt" class="register-link"><a rel="nofollow" href="register.aspx">Đăng ký</a></li>
+                                            
+                                        </ul>
+           
                  
-                </div>
-                <script>
-                    var isLoggedIn = false; 
-
-                    // Hàm đăng nhập
-                    function login() {
-                       
-                        isLoggedIn = true;
-                        updateUI();
-                    }
-
-                    // Hàm đăng ký
-                    function register() {
-                      
-                        isLoggedIn = true;
-                        updateUI();
-                    }
-
-                    // Hàm đăng xuất
-                    function logout() {
-                        
-                        isLoggedIn = false;
-                        updateUI();
-                    }
-
-                   
-                    function updateUI() {
-                        if (isLoggedIn) {
-                          
-                            document.getElementById('loginRegisterButtons').style.display = 'none';
-                            document.getElementById('avatarSection').style.display = 'block';
-                        } else {
-                          
-                            document.getElementById('loginRegisterButtons').style.display = 'block';
-                            document.getElementById('avatarSection').style.display = 'none';
-                        }
-                    }</script>
-            </div>
+              
 </header>
-    <form id="form1" runat="server">
             <nav class="main-nav hidden-xs" id="mainNav" style="z-index: 1000; position: relative; top: 0px;">
         <div class="inner">
             <div class="container">
